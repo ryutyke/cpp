@@ -57,3 +57,11 @@ int MultiplyBy(int a, int b)
 	PrintNumber(a);
 	return a * b;
 }
+
+// 오버로딩 (중복 정의 : 함수 이름의 재사용)
+// - 매개변수 갯수가 다르거나
+// - 매개변수 타입이 다르거나 (순서가 다른걸 포함)
+int MultiplyBy(float a, float b)
+{
+	return a * b;
+}
