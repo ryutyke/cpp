@@ -1,6 +1,18 @@
 #include <iostream>
 using namespace std;
 
+/*
+어셈블리 뜯어보면
+
+stack frame
+스택은 높은 주소에서부터 쌓인다
+
+함수가 들어갈 때, 매개변수 -> 반환 주소값 -> 지역변수 들어감
+함수 ret 후 해당 스택프레임은 esp에 add하는 것과 pop을 통해 사용할 수 없게 됨
+
+*/
+
+
 void PrintHelloWorld()
 {
 	cout << "Hello World" << endl;
