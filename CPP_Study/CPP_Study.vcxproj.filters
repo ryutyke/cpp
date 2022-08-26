@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pointer_to_pointer.cpp">
+    <ClCompile Include="multidimensional_array.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
