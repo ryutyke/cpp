@@ -1,6 +1,20 @@
 #include <iostream>
 using namespace std;
 
+// 포인터 vs 참조
+// 성능 : 동일
+// 편의성 : -> 과 .  참조 승!
+
+// 포인터는 주소를 넘겨서 원본을 넘기는 것이라는 것을 알 수 있는데
+// 참조는 참조인지 복사인지 함수를 봐야 알 수 있어서 실수할 수 있음 const 사용하면 되긴 함
+// pointer에 const?
+// * 뒤에 const : StatInfo* const info  => info를 바꿀 수 없음 즉, 주소값을 못 바꿈
+// * 앞에 const : const StatInfo* info => info에 있는 데이터를 바꿀 수 없음
+// const StatInfo* const info 이것도 됨
+
+// 초기화
+// 참조는 초기화 바로 해줘야 함. 포인터는 정의 후 나중에 초기화 해줘도 됨. 포인터 nullptr
+
 struct StatInfo
 {
 	int hp;
