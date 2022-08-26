@@ -9,7 +9,7 @@ struct StatInfo
 };
 
 void EnterLoby();
-StatInfo CreatePlayer();
+void CreatePlayer(StatInfo& info);
 void CreateMonster(StatInfo* info);
 //플레이어 승리시 true 패배 false
 bool StartBattle(StatInfo* player, StatInfo* monster);
@@ -26,10 +26,10 @@ void EnterLoby()
 	cout << "로비에 입장했습니다" << endl;
 
 	StatInfo player;
-	player = CreatePlayer(); //이렇게 하면 어셈블리 뜯어보면 player 외에 StatInfo 하나 만들어서 createplayer에서 만든거 넣어주고 그 후 player에 옮겨줌
+	CreatePlayer(player);
 
 	StatInfo monster;
-	CreateMonster(&monster); //포인터의 장점
+	CreateMonster(&monster);
 
 	bool victory = StartBattle(&player, &monster);
 
@@ -39,17 +39,13 @@ void EnterLoby()
 		cout << "패배!" << endl;
 }
 
-StatInfo CreatePlayer()
+void CreatePlayer(StatInfo& info) // reference는 어셈블리 상에서 pointer랑 똑같이 작동함
 {
-	StatInfo ret;
-
 	cout << "플레이어 생성" << endl;
 
-	ret.hp = 100;
-	ret.attack = 10;
-	ret.defense = 2;
-
-	return ret;
+	info.hp = 100;
+	info.attack = 10;
+	info.defense = 2;
 }
 
 void CreateMonster(StatInfo* info)
@@ -86,7 +82,7 @@ bool StartBattle(StatInfo* player, StatInfo* monster)
 		if (player->hp < 0)
 			player->hp = 0;
 
-		cout << "플레이어 HP : " << monster->hp << endl;
+		cout << "플레이어 HP : " << player->hp << endl;
 
 		if (player->hp == 0)
 			return false;
