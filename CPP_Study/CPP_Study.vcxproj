@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="object_oriented.cpp" />
-    <ClCompile Include="object_oriented2.cpp" />
-    <ClCompile Include="object_oriented3.cpp" />
-    <ClCompile Include="object_oriented4.cpp" />
-    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="operator_overloading.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
