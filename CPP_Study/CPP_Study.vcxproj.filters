@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dynamic_memory_allocation2.cpp">
+    <ClCompile Include="type_conversion.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
