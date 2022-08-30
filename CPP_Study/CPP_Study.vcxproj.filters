@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="operator_overloading.cpp">
+    <ClCompile Include="static.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
