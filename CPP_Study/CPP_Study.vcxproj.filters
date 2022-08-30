@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="type_conversion.cpp">
+    <ClCompile Include="pointer_type_conversion.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
