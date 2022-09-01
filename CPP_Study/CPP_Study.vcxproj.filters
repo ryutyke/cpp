@@ -13,48 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Game">
-      <UniqueIdentifier>{50a6ea3d-85f4-4fc3-b781-448d9bbe40df}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Creature">
-      <UniqueIdentifier>{a44bbbdc-ce18-4d97-97c1-31d538dce8cb}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="text_rpg3.cpp">
+    <ClCompile Include="function_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>소스 파일\Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\Creature</Filter>
-    </ClCompile>
-    <ClCompile Include="Creature.cpp">
-      <Filter>소스 파일\Creature</Filter>
-    </ClCompile>
-    <ClCompile Include="Field.cpp">
-      <Filter>소스 파일\Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Monster.cpp">
-      <Filter>소스 파일\Creature</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Game.h">
-      <Filter>소스 파일\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>소스 파일\Creature</Filter>
-    </ClInclude>
-    <ClInclude Include="Creature.h">
-      <Filter>소스 파일\Creature</Filter>
-    </ClInclude>
-    <ClInclude Include="Field.h">
-      <Filter>소스 파일\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Monster.h">
-      <Filter>소스 파일\Creature</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
