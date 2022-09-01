@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="function_pointer.cpp">
+    <ClCompile Include="function_pointer2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
