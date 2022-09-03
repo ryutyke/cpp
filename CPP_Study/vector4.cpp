@@ -96,7 +96,7 @@ public:
 		{
 			//증설 작업
 			int newCapacity = static_cast<int>(_capacity * 1.5);
-			if (newCapacity == _capacity)  // 0일 경우
+			if (newCapacity == _capacity)
 				newCapacity++;
 
 			reserve(newCapacity);
@@ -112,7 +112,7 @@ public:
 	{
 		_capacity = capacity;
 
-		T* newData = new T[capacity];
+		T* newData = new T[_capacity];
 
 		// 데이터 복사
 		for (int i = 0; i < _size; i++)
