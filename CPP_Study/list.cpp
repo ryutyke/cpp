@@ -45,9 +45,9 @@ int main()
 	list<int>::iterator itEnd = li.end();
 
 	//list<int>::iterator itTest = itBegin + 10; ¾ÈµÊ ºñÈ¿À²ÀûÀÌ¶ó ++ -- ¸¸ µÊ
-	//list<int>::iterator itTest1 = --itBegin; ¾ÈµÊ
-	//list<int>::iterator itTest2 = --itEnd;   µÊ
-	//list<int>::iterator itTest3 = ++itEnd;   ¾ÈµÊ
+	//list<int>::iterator itTest1 = --itBegin; //¾ÈµÊ
+	//list<int>::iterator itTest2 = --itEnd;   //µÊ
+	//list<int>::iterator itTest3 = ++itEnd;   //¾ÈµÊ
 
 	int* ptrBeign = &(li.front());
 	int* ptrEnd = &(li.back());
